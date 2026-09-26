@@ -1,6 +1,6 @@
 # UKOIL 1m OHLCV Commodities Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-5_256_572_rows-blue)](https://getdata.finance/datasets/ukoil) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/ukoil)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-5_260_213_rows-blue)](https://getdata.finance/datasets/ukoil) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/ukoil)
 
 ### -> [**Download the full UKOIL dataset on getdata.finance**](https://getdata.finance/datasets/ukoil)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 1m OHLCV** for **Brent Crude Oil** (Commodities)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/ukoil) · **5,256,572** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`1m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/ukoil) · **5,260,213** `1m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1m` sample updated in sync
 
-> **Sample on GitHub** · `UKOIL_1m.csv` (163,824 rows, `2026-03-23` -> `2026-09-23`, 13.85 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/ukoil)** — **5,256,572** `1m` rows (full `1m`: 5,228,763), **11 timeframes**, `2010-02-01` -> `2026-09-23`.
+> **Sample on GitHub** · `UKOIL_1m.csv` (163,685 rows, `2026-03-26` -> `2026-09-25`, 13.68 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/ukoil)** — **5,260,213** `1m` rows (full `1m`: 5,228,763), **11 timeframes**, `2010-02-01` -> `2026-09-25`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Brent Crude Oil · Commodities | Brent Crude Oil · Commodities |
 | Timeframes | `1m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1m rows | 163,824 | **5,256,572** |
-| Size | 13.85 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/ukoil) |
-| Period | `2026-03-23` -> `2026-09-23` | `2010-02-01` -> `2026-09-23` |
+| 1m rows | 163,685 | **5,260,213** |
+| Size | 13.68 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/ukoil) |
+| Period | `2026-03-26` -> `2026-09-25` | `2010-02-01` -> `2026-09-25` |
 | File | `UKOIL_1m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/ukoil) |
 | Coverage report | — | [UKOIL coverage](https://getdata.finance/coverage/ukoil) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`UKOIL_1m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-03-23T02:28:00+00:00 | 112.408 | 112.469 | 112.338 | 112.448 | 175 |
-| 2026-03-23T02:29:00+00:00 | 112.448 | 112.56 | 112.448 | 112.498 | 159 |
-| 2026-03-23T02:30:00+00:00 | 112.498 | 112.62 | 112.459 | 112.56 | 311 |
-| 2026-03-23T02:31:00+00:00 | 112.56 | 112.57 | 112.349 | 112.488 | 225 |
-| 2026-03-23T02:32:00+00:00 | 112.488 | 112.529 | 112.42 | 112.488 | 153 |
+| 2026-03-26T02:28:00+00:00 | 103.055 | 103.055 | 102.995 | 103.006 | 84 |
+| 2026-03-26T02:29:00+00:00 | 103.006 | 103.077 | 102.975 | 103.076 | 84 |
+| 2026-03-26T02:30:00+00:00 | 103.076 | 103.085 | 103.036 | 103.085 | 115 |
+| 2026-03-26T02:31:00+00:00 | 103.085 | 103.207 | 103.085 | 103.207 | 246 |
+| 2026-03-26T02:32:00+00:00 | 103.207 | 103.227 | 103.18 | 103.206 | 295 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-23T01:57:00+00:00 | 98.911 | 98.945 | 98.89 | 98.895 | 84 |
-| 2026-09-23T01:58:00+00:00 | 98.895 | 98.901 | 98.866 | 98.884 | 113 |
-| 2026-09-23T01:59:00+00:00 | 98.884 | 98.886 | 98.859 | 98.88 | 88 |
-| 2026-09-23T02:00:00+00:00 | 98.88 | 98.89 | 98.754 | 98.764 | 183 |
-| 2026-09-23T02:01:00+00:00 | 98.764 | 98.784 | 98.696 | 98.744 | 164 |
+| 2026-09-25T20:40:00+00:00 | 104.599 | 104.601 | 104.531 | 104.531 | 159 |
+| 2026-09-25T20:41:00+00:00 | 104.531 | 104.539 | 104.516 | 104.524 | 121 |
+| 2026-09-25T20:42:00+00:00 | 104.524 | 104.551 | 104.509 | 104.526 | 153 |
+| 2026-09-25T20:43:00+00:00 | 104.526 | 104.526 | 104.504 | 104.516 | 165 |
+| 2026-09-25T20:44:00+00:00 | 104.516 | 104.516 | 104.439 | 104.469 | 177 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **UKOIL** archive on **[getdata.finance](https://getdata.finance/datasets/ukoil)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **5,256,572** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **UKOIL** archive on **[getdata.finance](https://getdata.finance/datasets/ukoil)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **5,260,213** rows at `1m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full UKOIL dataset on getdata.finance](https://getdata.finance/datasets/ukoil)**
 
